@@ -163,7 +163,7 @@
 		$.ajax({
 			url: "<?= APP_PATH?>/rol/getViews",
 			type: 'post',
-			dataType: 'text/html',
+			dataType: 'json',
 			data: data,
 		})
 		.done(function(data) {
